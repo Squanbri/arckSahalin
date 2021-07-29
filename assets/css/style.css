@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "EuclidBold";  
+  src: url("./assets/fonts/EuclidCircularA-Bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+}  
+@font-face {
+  font-family: "EuclidBoldItalic";  
+  src: url("./assets/fonts/EuclidCircularA-BoldItalic.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+}  
+@font-face {
+  font-family: "EuclidItalic";  
+  src: url("./assets/fonts/EuclidCircularA-Italic.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+}  
+@font-face {
+  font-family: "EuclidLight";  
+  src: url("./assets/fonts/EuclidCircularA-Light.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+}  
+@font-face {
+  font-family: "EuclidLightItalic";  
+  src: url("./assets/fonts/EuclidCircularA-LightItaluc.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+}  
+@font-face {
+  font-family: "EuclidMedium";  
+  src: url("./assets/fonts/EuclidCircularA-Medium.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+}  
+@font-face {
+  font-family: "EuclidMediumItalic";  
+  src: url("./assets/fonts/EuclidCircularA-MediumItalic.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+}  
+@font-face {
+  font-family: "EuclidRegular";  
+  src: url("./assets/fonts/EuclidCircularA-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+}  
+@font-face {
+  font-family: "EuclidSemiBold";  
+  src: url("./assets/fonts/EuclidCircularA-SemiBold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+}  
+@font-face {
+  font-family: "EuclidSemiBoldItalic";  
+  src: url("./assets/fonts/EuclidCircularA-SemiBoldItalic.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+}  
+
+:root {
+  --light:      #fff;
+  --blue:       #004386;
+  --light-blue: #2773BA;
+  --red:        #FF0000;
+  --old-gold:   #D2AA41;
+  --grey:       #A7A9AC;
+  --dark:       #2A2A2A;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: "EuclidRegular", normal;
+}
+*:focus, *:active {
+  border: none;
+  outline: none;
+}
+
+.wrapper {
+  
+}
