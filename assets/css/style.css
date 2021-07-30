@@ -206,9 +206,18 @@ section {
 .section-main {
   height: 760px;
   display: flex;
-  background-image: url('../images/main_bg.png');
+  /* background-image: url('../images/main_bg.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  position: relative;
+  overflow: hidden;
+}
+
+.video-background {
+  position: absolute;
+  width: 100vw;
+  height: 760px;
+  object-fit: cover;
 }
 
 .section-main .section__body_left {
