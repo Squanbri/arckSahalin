@@ -224,6 +224,7 @@ main {
 .navbar-links__item .link{
   text-decoration: none;
   font-weight: 500;
+  color: var(--light);
 }
 
 section {
@@ -235,9 +236,6 @@ section {
 .section-main {
   height: 760px;
   display: flex;
-  /* background-image: url('../images/main_bg.png');
-  background-repeat: no-repeat;
-  background-size: cover; */
   position: relative;
   overflow: hidden;
 }

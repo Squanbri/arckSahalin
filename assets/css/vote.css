@@ -1,6 +1,7 @@
 .bread-crumbs {
   margin-top: 114px;
   height: 68px;
+  font-size: 12px;
 }
 
 .instruction {
@@ -33,19 +34,28 @@
 
 .municipalities {
   height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.municipalities__patern {
+  position: absolute;
+  transform: rotate(311deg);
+  top: -40vw;
+  right: 14vw;
+  opacity: 40%;
+  z-index: -3;
 }
 
 .municipalities-list {
   list-style: none;
   padding-left: 0;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
 
 .municipalities-list__item {
-  width: 470px;
-  height: 90px;
   background-color: var(--light);
   border-radius: 4px;
   border: 1px solid #ECF1F8;
@@ -59,6 +69,8 @@
 }
 
 .municipalitie__index {
+  min-width: 48px;
+  max-width: 48px;
   height: 48px;
   width: 48px;
   margin: 20px;
@@ -71,6 +83,7 @@
   font-weight: 700;
   font-size: 24px;
   -webkit-text-fill-color: white;
+  pointer-events: none;
 }
 
 .municipalitie__info {
@@ -79,16 +92,19 @@
   flex-direction: column;
   max-width: 63%;
   padding-top: 10px;
+  pointer-events: none;
 }
 
 .municipalitie__title {
   font-size: 16px;
   font-weight: 500;
+  pointer-events: none;
 }
 
 .municipalitie__count-candidates {
   margin-top: 4px;
   font-size: 12px;
+  pointer-events: none;
 }
 
 .municipalitie__arrow {
@@ -97,6 +113,7 @@
   justify-content: center;
   align-items: center;
   border-left: 1px solid #ECF1F8;
+  pointer-events: none;
 }
 
 .municipalitie__arrow svg {
